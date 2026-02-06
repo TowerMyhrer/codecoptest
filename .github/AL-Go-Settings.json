@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.1/.Modules/settings.schema.json",
+  "type": "PTE",
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "enableCodeCop": true,
+  "enableAppSourceCop": false,
+  "enablePerTenantExtensionCop": true,
+  "enableUICop": true,
+  "rulesetFile": "../BDN/rulesets/BDN.ruleset.json",
+  "vsixFile": "latest",
+  "customCodeCops": [
+    "https://github.com/StefanMaron/BusinessCentral.LinterCop/releases/latest/download/BusinessCentral.LinterCop.dll"
+  ],
+  "templateSha": "2b0291277622df06df2856bc05768be2ebb5a6b5"
+}

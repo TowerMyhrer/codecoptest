@@ -1,0 +1,35 @@
+{
+    "folders": [
+        {
+            "name": "AL-GO",
+            "path": "./.AL-Go"
+        },
+        {
+            "name": "CodeCop",
+            "path": "./CodeCop"
+        }
+    ],
+    "settings": {
+		"al.compilationOptions": {
+			"parallel": true,
+			"generateReportLayout": true
+		},
+		"al.codeAnalyzers": [
+			"${PerTenantExtensionCop}",
+			"${UICop}",
+			"${CodeCop}"
+		],
+		"al.enableCodeActions": true,
+		"al.enableCodeAnalysis": true,
+		"al.ruleSetPath": "../BDN/rulesets/BDN.ruleset.json",
+		"al.backgroundCodeAnalysis": false,
+		"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.RenameWithGit": false,
+		"CRS.ObjectNamePrefix": "BDN ",
+		"CRS.RemovePrefixFromFilename": true,
+		"CRS.DisableCRSSnippets": true,
+		"CRS.OnSaveAlFileAction": "Rename",
+	}
+}

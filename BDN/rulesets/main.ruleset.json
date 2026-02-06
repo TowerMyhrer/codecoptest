@@ -1,0 +1,10 @@
+{
+    "name": "BDN Project ruleset",
+    "description": "A list of project specific rules",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "./BDN.ruleset.json"
+        }
+    ]
+}
