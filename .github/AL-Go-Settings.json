@@ -7,7 +7,7 @@
   "enablePerTenantExtensionCop": true,
   "enableUICop": true,
   "enableExternalRulesets": true,
-  "rulesetFile": "../BDN.ruleset.json",
+  "rulesetFile": "./BDN.ruleset.json",
   "vsixFile": "latest",
   "customCodeCops": [
     "https://github.com/StefanMaron/BusinessCentral.LinterCop/releases/latest/download/BusinessCentral.LinterCop.dll"
