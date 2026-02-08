@@ -4,5 +4,19 @@
             "path": ".AL-Go"
         }
     ],
-    "settings": {}
+    "settings": {
+		"al.compilationOptions": {
+			"parallel": true,
+			"generateReportLayout": true
+		},
+		"al.codeAnalyzers": [
+			"${PerTenantExtensionCop}",
+			"${UICop}",
+			"${CodeCop}"
+		],
+		"al.enableCodeActions": true,
+		"al.enableCodeAnalysis": true,
+		"al.ruleSetPath": "../BDN/rulesets/BDN.ruleset.json",
+		"al.backgroundCodeAnalysis": false
+	}
 }

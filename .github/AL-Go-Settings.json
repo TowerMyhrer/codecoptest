@@ -6,7 +6,7 @@
   "enableAppSourceCop": false,
   "enablePerTenantExtensionCop": true,
   "enableUICop": true,
-  "rulesetFile": "../BDN/rulesets/BDN.ruleset.json",
+  "rulesetFile": "https://towertmp.github.io/AL-DocsTemplate/media/main.rulesetTemplate.json",
   "vsixFile": "latest",
   "customCodeCops": [
     "https://github.com/StefanMaron/BusinessCentral.LinterCop/releases/latest/download/BusinessCentral.LinterCop.dll"
