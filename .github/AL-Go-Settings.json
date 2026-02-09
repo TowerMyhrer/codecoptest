@@ -6,7 +6,6 @@
   "enableAppSourceCop": false,
   "enablePerTenantExtensionCop": true,
   "enableUICop": true,
-  "enableExternalRulesets": true,
   "rulesetFile": "./BDN/rulesets/BDN.ruleset.json",
   "vsixFile": "latest",
   "customCodeCops": [
